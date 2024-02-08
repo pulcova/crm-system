@@ -7,19 +7,27 @@ This project is a Customer Relationship Management (CRM) system built with Djang
 - Python 3.2x or later must be installed on your system.
 - Create a virtual environment using Python 3.2x and activate it.
 
+```
 python3.2 -m venv venv_name
+
 source venv_name/bin/activate # For Linux/Mac
+
 venv_name\Scripts\activate.bat # For Windows
+```
 
 - Install project dependencies listed in `requirements.txt`:
 
+```
 pip install -r requirements.txt
+```
 
 ## Usage
 
 1. Create a superuser to access the Django admin panel:
 
+```
 python manage.py createsuperuser
+```
 
 Follow the prompts to create a username, email, and password for the superuser.
 
@@ -36,7 +44,9 @@ Follow the prompts to create a username, email, and password for the superuser.
 
 3. Run the development server:
 
+```
 python manage.py runserver
+```
 
 Access the CRM application at `http://127.0.0.1:8000/` in your web browser.
 
